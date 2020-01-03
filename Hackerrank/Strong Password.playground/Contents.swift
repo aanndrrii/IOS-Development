@@ -1,7 +1,6 @@
 import Cocoa
 import Foundation
 
-var str = "Hello, playground"
 
 let numbers = "0123456789"
 let lower_case = "abcdefghijklmnopqrstuvwxyz"
@@ -54,8 +53,6 @@ func minimumNumber(n: Int, password: String) -> Int {
             sum = (6-n)
         }
     }
-    
-    
     
     return sum
 }
